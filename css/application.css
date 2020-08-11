@@ -404,9 +404,12 @@ h2, .headline-secondary, .headline-secondary--grouped {
 .img--avatar {
   display: block;
   border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 1.5em; }
-.img--hero {
-  margin-bottom: 2.625em; }
+@media (min-width: 769px) {
+  .img--hero {
+    margin-bottom: 2.625em; } }
 
 .headline-primary {
   margin-bottom: 1.66667em; }
@@ -458,9 +461,11 @@ h2, .headline-secondary, .headline-secondary--grouped {
         margin-left: 20px; } }
 
 .navbar {
-  position: relative;
-  margin-top: 3.375em;
-  margin-bottom: 0; }
+  position: relative; }
+  @media (min-width: 769px) {
+    .navbar {
+      margin-top: 3.375em;
+      margin-bottom: 0; } }
 
 .nav {
   margin-top: 1.25em;
